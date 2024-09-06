@@ -15,7 +15,7 @@ orbs:
 jobs:
   setup:
     machine: true
-    resource_class: wing/trill
+    resource_class: pipe/line
     steps:
       - checkout
       - maybe_build_certs
